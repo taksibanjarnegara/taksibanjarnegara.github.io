@@ -101,7 +101,7 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   margin: 10px 20px;
   padding: 0;
-  color: #2f5296;
+  color: black;
   text-align: center;
   position: relative;
   text-transform: uppercase;
@@ -147,11 +147,11 @@ a:focus {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-  text-shadow: 3px 2px 10px #2f5296; /* Efek bayangan teks */
-  -webkit-text-stroke-width: 1px; /* Lebar outline pada teks untuk browser WebKit */
-  -webkit-text-stroke-color: #2f5296; /* Warna outline untuk browser WebKit */
-  text-stroke-width: 1px; /* Lebar outline pada teks */
-  text-stroke-color: #2f5296; /* Warna outline pada teks */
+  text-shadow: 3px 2px 10px #2f5296;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2f5296;
+  text-stroke-width: 1px;
+  text-stroke-color: #2f5296;
 }
 
 .custom_nav-container {
@@ -962,3 +962,11 @@ a:focus {
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
+
+.btn-more {
+  margin-top: 25px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

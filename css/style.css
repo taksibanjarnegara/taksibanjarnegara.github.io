@@ -970,3 +970,25 @@ a:focus {
   justify-content: end;
   align-items: center;
 }
+
+.social-media-icons {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  margin: 5px 0;
+}
+
+.social-icon img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1);
+}
